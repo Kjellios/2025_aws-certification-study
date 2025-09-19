@@ -68,3 +68,5 @@ chmod
 # AWS CLI dumps
 *.json.backup
 aws_credentials*
+
+!.github/workflows/*.yml
