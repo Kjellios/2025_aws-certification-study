@@ -1,0 +1,24 @@
+# AWS/Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Credentials / Secrets
+*.pem
+*.key
+.env
+aws_credentials
+credentials.csv
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
