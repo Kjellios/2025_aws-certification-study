@@ -68,3 +68,4 @@ This keeps every file consistent across phases.
 - Two full-length practice exams ≥70–75% in 7 days.
 - All wrong-answer log items closed.
 - Able to whiteboard key architectures without notes.
+# Trigger test
