@@ -1,24 +1,105 @@
-# AWS/Terraform
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node / npm (if used for diagrams or tools)
+node_modules/
+npm-debug.log*
+
+# Python virtual envs (if you spin up tools)
+venv/
+__pycache__/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform/
+.terraform.lock.hcl
+
+# AWS CLI & credentials
+*.pem
+*.key
+*.crt
+*.cer
+*.csv
+*.env
+aws_credentials*
+config.json
+
+# Logs
+*.log
+*.bak
+*.tmp
+*.swp
+
+# VS Code
+.vscode/
+.history/
+
+# Draw.io autosaves
+*.~*
+
+# Local only
+progress-tracker.xlsx
+
+# --- Safety Catch-Alls ---
+# Credentials / secrets by common names
+*credentials*
+*secret*
+*secrets*
+*private*
+*id_rsa*
+*id_dsa*
+*id_ecdsa*
+*id_ed25519*
+*.pem
+*.key
+*.cer
+*.crt
+*.p12
+*.pfx
+*.csr
+*.kdbx
+*.vault
+*.gpg
+*.asc
+
+# Env/config
+*.env
+.env.*
+*.csv
+config.json
+
+# Terraform
 *.tfstate
 *.tfstate.*
 .terraform/
+.terraform.lock.hcl
 crash.log
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
 terraform.tfvars
 terraform.tfvars.json
 
-# Credentials / Secrets
-*.pem
-*.key
-.env
-aws_credentials
-credentials.csv
+# AWS CLI dumps
+*.json.backup
+aws_credentials*
 
-# MacOS
+# Logs / temp
+*.log
+*.bak
+*.tmp
+*.swp
+
+# macOS / editor
 .DS_Store
-
-# VSCode
+.AppleDouble
+.LSOverride
 .vscode/
+.history/
+
+# Draw.io autosaves
+*.~*
+
+# Local-only file noted in docs
+progress-tracker.xlsx
